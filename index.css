@@ -11,8 +11,9 @@
 }
 
 body {
-    background-color: rgb(253, 253, 254);
-    margin: 60px 0px;
+    /*background-color: rgb(253, 253, 254);*/
+	background-color: rgb(220, 220, 224);
+    margin: 50px 0px;
     min-width: 300px;
 }
 
@@ -28,10 +29,20 @@ h1 {
     margin-bottom: 40px;
 }
 
+h1.italicized_h1 {
+				   font-style: italic;
+				   font-family: serif;
+}
+
 h2 {
     font-size: 30px;
     font-weight: 600;
     margin: 60px 0px 10px 0px;
+}
+
+h2.italicized_h2 {
+				   font-style: italic;
+				   font-family: serif;
 }
 
 h3 {
@@ -105,7 +116,7 @@ p {
     margin-bottom: 100px;
     width: 90%;
     margin: auto;
-    max-width: 660px;
+    max-width: 860px;
 }
 
 .toc > li {
@@ -127,10 +138,10 @@ p {
 .labeled-audio {
     text-align: center;
     display: inline;
-    max-width: 350px;
-    min-width: 275px;
+    max-width: 250px;
+    min-width: 200px;
     flex: 1 1 275px;
-    margin: 5px 10px;
+    margin: 10px 10px;
     position: relative;
 }
 
@@ -161,3 +172,16 @@ p {
     margin: 0px 20%;
     margin-top: 30px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Set the desired height */
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
